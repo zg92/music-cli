@@ -39,7 +39,7 @@ class scale_generator():
             scale_degrees = self.return_note_list(root, self.major_scale)
         elif mm[0] == 'minor':
             scale_degrees = self.return_note_list(root, self.minor_scale)
-        progression_list = [scale_degrees[int(chord_interval)] if chord_interval == int(0) else scale_degrees[int(
+        progression_list = [scale_degrees[int(chord_interval)] if int(chord_interval) == 0 else scale_degrees[int(
         chord_interval) - 1] for chord_interval in chords]
 
         if isinstance(chords, (list, str, int)) is False: 
