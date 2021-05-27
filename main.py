@@ -49,7 +49,4 @@ class scale_generator():
 
 x = scale_generator()
 
-# x.create_scale('C', '09876543')
-x.create_progression('A', '000044005405')
-# x.create_scale('D', 'major_pent')
-x.create_progression('A', [0,0,0,0,4,4,5,5,4,0,5])
+
